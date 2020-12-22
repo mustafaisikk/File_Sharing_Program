@@ -1,0 +1,4 @@
+module.exports = {
+    PORT : 3000,
+    CONNECTION_STRING: 'mongodb://localhost:27017/files'
+}
