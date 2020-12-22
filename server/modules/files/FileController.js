@@ -5,6 +5,7 @@ exports.get_all = (req,res) =>{
 }
 exports.upload = (req, res) =>{
   res.send('upload')
+  console.log(req.file);
 }
 
 exports.file_count = (req, res) =>{
