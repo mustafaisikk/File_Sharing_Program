@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kulim Park', sans-serif;
+  --primary-color: #3f51B5;
+  --border-color: #009688;
+}
+body{
+  animation: page-open 1s ease-in-out;
+}
+nav{
+  background-color: var(--primary-color);
+  min-height: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background-color: var(--primary-color);
+  width:20%;
+  border: none;
+  min-height: 5vh;
+  color: white;
+  transition: 1s;
+}
+button:hover{
+  transition: 1s;
+  background-color: var(--border-color);
+}
+nav h1{
+  color: white;
+  font-size: 2rem;
+}
+
+.files{
+  display: grid;
+  padding: 2rem;
+  text-align: center;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.file{
+  border: 1px solid var(--border-color);
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@keyframes page-open {
+  to{
+    opacity: 1;
+  }
+  from{
+      opacity: 0;
+  }
+}
