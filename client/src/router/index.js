@@ -10,6 +10,12 @@ export default new Router({
       path: '/',
       component: () => import('@/components/Files'),
       name: 'Files'
+    },
+    {
+      path: '/add',
+      component: () => import('@/components/Add'),
+      name: 'add'
     }
-  ]
+  ],
+  mode: 'history'
 })

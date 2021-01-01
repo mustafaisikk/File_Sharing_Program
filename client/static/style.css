@@ -35,22 +35,6 @@ nav h1{
   font-size: 2rem;
 }
 
-.files{
-  display: grid;
-  padding: 2rem;
-  text-align: center;
-  grid-template-columns: repeat(3,1fr);
-}
-
-.file{
-  border: 1px solid var(--border-color);
-  min-height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
 @keyframes page-open {
   to{
     opacity: 1;

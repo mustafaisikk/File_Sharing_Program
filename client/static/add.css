@@ -1,0 +1,23 @@
+div{
+
+}
+form{
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+input{
+  padding: 0.5rem;
+  width: 50%;
+  border: none;
+  border-bottom: 5px solid var(--border-color);
+}
+button{
+  width: 50%;
+}
+.vue-dropzone{
+  width: 50%;
+}
